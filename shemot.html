@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/favicon.jpg" type="image/x-jpg">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Heikhal Shlomo</title>
+</head>
+
+<body>
+
+    <div id="main"
+        style="background-image: url('./assets/images/wood-_texture1584-1250x834.jpg');background-size: cover;background-repeat: repeat-y;">
+
+        <!-- header -->
+        <a href="index.html">
+            <header class="img-fluid container d-none d-sm-block"
+                style=" height: 12rem;background-image: url('/assets/images/heikhal\ shlomo.png'); background-size: cover; background-repeat: no-repeat;">
+            </header>
+        </a>
+
+        <!-- Nav Bar Responsive -->
+        <div class="container bg-light d-block d-sm-none" id="Rbg">
+            <div class="container">
+                <nav class=" navbar navbar-expand-lg navbar-light bg-light Cbgt">
+                    <a class="navbar-brand" id="Rindex" href="index.html"></a>
+                    <button id="RNavButton" class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav text-right" id="RnavBar">
+                            <div class="nav-link"><a href="bereshit.html"> ברשית</a></div>
+                            <div class="nav-link"><a href="shemot.html" class="RonPage"> שמות</a></div>
+                            <div class="nav-link"><a href="vayikra.html"> ויקרא</a></div>
+                            <div class="nav-link"><a href="bamidbar.html"> במידבר</a></div>
+                            <div class="nav-link"><a href="devarim.html"> דברים</a></div>
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+
+        </div>
+
+        <!-- Nav Bar Computer -->
+        <div class="container bg-light d-none d-sm-block Cbgt" id="padding0">
+            <div class="container" id="CnavBar">
+
+                <div class="row text-center" id="NavBarComputer">
+                    <a class="nav-link" href="devarim.html">דברים</a>
+                    <a class="nav-link" href="bamidbar.html">במידבר</a>
+                    <a class="nav-link" href="vayikra.html">ויקרא</a>
+                    <a class="nav-link ConPage" href="shemot.html">שמות</a>
+                    <a class="nav-link" href="bereshit.html">ברשית</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- container -->
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+
+                    <!-- Book Computer -->
+                    <div class="computer  d-none d-sm-block img-fluid figure-fluid mx-auto mt-2"
+                        style="height: 806px; background-image: url(./assets/images/book.png); background-size: contain; background-repeat: no-repeat;">
+
+                        <div class="Cinterieur row justify-content-center ">
+                            <div class="col-5 ">
+                                <div class="m-4 mt-5 text-center" id='seferShemot' style="height: 750px;">
+                                    <div id='Michpatim / Shkalim' class="parasha1 slideLeft0"
+                                        onclick="openForm(this.id)"> משפטים / שקלים</div>
+                                    <div id='Terouma' class="parasha1 slideLeft1" onclick="openForm(this.id)"> תרומה
+                                    </div>
+                                    <div id='Tetsave / Zahor' class="parasha1 slideLeft2" onclick="openForm(this.id)">
+                                        תצווה / זכור</div>
+                                    <div id='Ki Tissa / Para' class="parasha1 slideLeft3" onclick="openForm(this.id)">
+                                        כי תשא / פרה</div>
+                                    <div id="Vayakel-Pekoudei / Ha'hodesh" class="parasha1 slideLeft4"
+                                        onclick="openForm(this.id)">ויקהל- פקודי / החודש
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-5">
+                                <div class="m-3 mt-5 ml-5 text-center" id='seferShemot' style="height: 750px;">
+                                    <div id="title" class="slide0">שמות</div>
+                                    <div id='Shemot' class="parasha2 slide1" onclick="openForm(this.id)">שמות</div>
+                                    <div id='Vaéra' class="parasha2 slide2" onclick="openForm(this.id)"> וארא</div>
+                                    <div id='Bo' class="parasha2 slide3" onclick="openForm(this.id)">בא</div>
+                                    <div id='Beshalah' class="parasha2 slide4" onclick="openForm(this.id)">בשלח</div>
+                                    <div id='Yitro' class="parasha2 slide5" onclick="openForm(this.id)"> יתרו</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Parchemin Responsive -->
+                    <div class="iphone  d-block d-sm-none img-fluid figure-fluid mx-auto"
+                        style="height: 1650px; background-image: url(./assets/images/parchemintreslong2.png); background-size: contain; background-repeat: no-repeat;">
+                        <div class="Rinterieur container mt-2 pt-1 text-center">
+
+                            <div id="title" class="RtitleParasha">שמות</div>
+                            <div id='ShemotR' class="RparashaShemot" onclick="openForm(this.id)">שמות</div>
+                            <div id='VaéraR' class="RparashaShemot" onclick="openForm(this.id)"> וארא</div>
+                            <div id='BoR' class="RparashaShemot" onclick="openForm(this.id)">בא</div>
+                            <div id='BeshalahR' class="RparashaShemot" onclick="openForm(this.id)">בשלח</div>
+                            <div id='YitroR' class="RparashaShemot" onclick="openForm(this.id)"> יתרו</div>
+                            <div id='Michpatim / ShkalimR' class="RparashaShemot" onclick="openForm(this.id)">
+                                משפטים /
+                                שקלים</div>
+                            <div id='TeroumaR' class="RparashaShemot" onclick="openForm(this.id)"> תרומה
+                            </div>
+                            <div id='Tetsave / ZahorR' class="RparashaShemot" onclick="openForm(this.id)">
+                                תצווה / זכור</div>
+                            <div id='Ki Tissa / ParaR' class="RparashaShemot" onclick="openForm(this.id)">
+                                כי תשא / פרה</div>
+                            <div id="Vayakel-Pekoudei / Ha'hodeshR" class="RparashaShemot" onclick="openForm(this.id)">
+                                ויקהל- פקודי / החודש
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+    <script src="js/jQuery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,609 @@
+@font-face {
+    font-family: "GartonRashi";
+    src: url("../assets/polices/Garton-Rashi\ \(2020_12_02\ 14_44_26\ UTC\).ttf") format("ttf")
+   }
+@font-face {
+    font-family: "Monotype Corsiva";
+    src: url("../assets/polices/MTCORSVA.TTF") format("ttf")
+}
+
+#CtextIntro {
+    font-family: "Monotype Corsiva", sans-serif ;
+    font-size: 1.4em;
+    color: brown;
+    font-weight: bold;
+    line-height: 27px;
+}
+
+#padding0 {
+    padding: 0;
+}
+
+#NavBarComputer a {
+    font-weight: bold;
+    color: black;
+    font-family: "GartonRashi", sans-serif;
+    width: 20%;
+    background-color: #f5f5f5;
+    border-right: 1px #c9c9c9 solid;
+}
+
+#NavBarComputer a:hover {
+    background-color: #5C80B5 !important;
+    color: #fff !important;
+    transition: color 0.5s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.ConPage {
+    background-color: #47648f !important;
+    color: #fff !important;
+}
+
+.RonPage {
+    background-color: #47648f !important;
+    color: #fff !important;
+}
+
+.Cbgt {
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+
+#NavBarComputer a:last-child {
+    border-radius: 0 0 16px 0 !important;
+}
+
+#NavBarComputer a:first-child {
+    border-radius: 0 0 0 16px !important;
+}
+
+#Rbg {
+    background: url('../assets/images/heikhal\ shlomoResponsive.png') center/cover !important;
+}
+
+#Rindex {
+    width: 40%;
+}
+
+#RNavButton {
+    background-color: #f5f5f5;
+}
+
+#RnavBar div a{
+    display: inline-block;
+    background-color: #f5f5f5 ;
+    width: 100px;
+    margin-right: -20px;
+    height: 35px;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    color: black ;
+    font-family: "GartonRashi", sans-serif;
+    border-radius: 10px;
+}
+
+#RnavBar div a:hover {
+    background-color: #5C80B5 !important;
+    color: #fff !important;
+}
+
+#RtextIntro {
+    font-family: "Monotype Corsiva", sans-serif ;
+    font-size: 1.2em;
+    color: brown;
+    font-weight: bold;
+    line-height: 23px;
+}
+
+.slide0 {
+    -webkit-animation: slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.slide1 {
+    -webkit-animation: slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 250ms both;
+    animation: slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 250ms both;
+}
+
+.slide2 {
+    -webkit-animation: slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 500ms both;
+    animation: slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 500ms both;
+}
+
+.slide3 {
+    -webkit-animation: slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 750ms both;
+    animation: slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 750ms both;
+}
+
+.slide4 {
+    -webkit-animation: slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1000ms both;
+    animation: slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1000ms both;
+}
+
+.slide5 {
+    -webkit-animation: slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1250ms both;
+    animation: slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1250ms both;
+}
+
+@-webkit-keyframes slide-in-right {
+    0% {
+        -webkit-transform: translateX(1000px);
+        transform: translateX(1000px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-right {
+    0% {
+        -webkit-transform: translateX(1000px);
+        transform: translateX(1000px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.slideLeft0 {
+    -webkit-animation: slide-in-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.slideLeft1 {
+    -webkit-animation: slide-in-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 250ms both;
+    animation: slide-in-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 250ms both;
+}
+
+.slideLeft2 {
+    -webkit-animation: slide-in-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 500ms both;
+    animation: slide-in-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 500ms both;
+}
+
+.slideLeft3 {
+    -webkit-animation: slide-in-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 750ms both;
+    animation: slide-in-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 750ms both;
+}
+
+.slideLeft4 {
+    -webkit-animation: slide-in-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1000ms both;
+    animation: slide-in-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1000ms both;
+}
+
+.slideLeft5 {
+    -webkit-animation: slide-in-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1250ms both;
+    animation: slide-in-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1250ms both;
+}
+
+.slideLeft6 {
+    -webkit-animation: slide-in-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1500ms both;
+    animation: slide-in-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1500ms both;
+}
+
+
+
+@-webkit-keyframes slide-in-left {
+    0% {
+        -webkit-transform: translateX(-1000px);
+        transform: translateX(-1000px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-left {
+    0% {
+        -webkit-transform: translateX(-1000px);
+        transform: translateX(-1000px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.slide-in-top0 {
+    -webkit-animation: slide-in-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.slide-in-top1 {
+    -webkit-animation: slide-in-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 250ms both;
+    animation: slide-in-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 250ms both;
+}
+
+.slide-in-top2 {
+    -webkit-animation: slide-in-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 500ms both;
+    animation: slide-in-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 500ms both;
+}
+
+.slide-in-top3 {
+    -webkit-animation: slide-in-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 750ms both;
+    animation: slide-in-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 750ms both;
+}
+
+.slide-in-top4 {
+    -webkit-animation: slide-in-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1000ms both;
+    animation: slide-in-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1000ms both;
+}
+
+
+@-webkit-keyframes slide-in-top {
+    0% {
+        -webkit-transform: translateY(-1000px);
+        transform: translateY(-1000px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-top {
+    0% {
+        -webkit-transform: translateY(-1000px);
+        transform: translateY(-1000px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+#main{
+    height: 1100px;
+}
+
+@media screen and (max-width: 812px) {
+    #main{
+        height: 212vh !important;
+}
+}
+
+#title {
+    color: brown;
+    font-family: "gartonRashi", sans-serif;
+    font-size: 4em;
+    margin: 18px;
+}
+
+#seferBereshit .parasha2 {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 60px 70px 60px 60px;
+    padding: 9px;
+    font-size: 1.6em;
+    border: 3px brown solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.parasha2:hover, .parasha1:hover {
+    border: 3px #000 solid;
+    background-color: rgba(255, 255, 255, 0.527);
+    transition: border 0.4s ease-in-out;
+    transition: background-color 0.4 ease-in-out;
+}
+
+#seferBereshit .parasha1 {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 44px 70px 44px 60px;
+    padding: 9px;
+    font-size: 1.6em;
+    border: 3px brown solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#seferShemot .parasha2 {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 60px 70px 60px 60px;
+    padding: 9px;
+    font-size: 1.6em;
+    border: 3px brown solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#seferShemot .parasha1 {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 77px 70px 77px 60px;
+    padding: 13px;
+    font-size: 1.6em;
+    border: 3px brown solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#seferVayikra .parasha2 {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 60px 70px 60px 60px;
+    padding: 9px;
+    font-size: 1.6em;
+    border: 3px brown solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#seferVayikra .parasha1 {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 58px 70px 58px 60px;
+    padding: 13px;
+    font-size: 1.6em;
+    border: 3px brown solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#seferBamidbar .parasha2 {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 60px 70px 60px 60px;
+    padding: 9px;
+    font-size: 1.6em;
+    border: 3px brown solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#seferBamidbar .parasha1 {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 82px 70px 82px 60px;
+    padding: 13px;
+    font-size: 1.6em;
+    border: 3px brown solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#seferDevarim .parasha2 {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 92px 70px 75px 60px;
+    padding: 9px;
+    font-size: 1.6em;
+    border: 3px brown solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#seferDevarim .parasha1 {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 82px 70px 82px 60px;
+    padding: 13px;
+    font-size: 1.6em;
+    border: 3px brown solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.RtitleParasha {
+    font-size: 3em !important;
+    margin-top: 73px !important;
+}
+
+.RparashaBereshit {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 30px 60px 70px 60px;
+    padding: 3px;
+    font-size: 1.6em;
+    border: 3px brown solid;
+    border-radius: 15px;
+}
+
+.RparashaShemot {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 30px 60px 75px 60px;
+    padding: 3px;
+    font-size: 1.6em;
+    border: 3px brown solid;
+    border-radius: 15px;
+}
+
+.RparashaVayikra {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 30px 60px 75px 60px;
+    padding: 3px;
+    font-size: 1.6em;
+    border: 3px brown solid;
+    border-radius: 15px;
+}
+
+.RparashaBamidbar {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 30px 60px 90px 60px;
+    padding: 3px;
+    font-size: 1.6em;
+    border: 3px brown solid;
+    border-radius: 15px;
+}
+
+.RparashaDevarim {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 40px 60px 95px 60px;
+    padding: 3px;
+    font-size: 1.6em;
+    border: 3px brown solid;
+    border-radius: 15px;
+}
+
+.disable {
+    background-color: #c76e6e73;
+    color: #6b6b6b6e;
+    border: 3px #a52a2a6b solid !important;
+    cursor: default !important;
+}
+
+.disable:hover {
+    background-color: #c76e6e73;
+    pointer-events: none !important;
+    cursor: default !important;
+}
+
+.alert {
+    margin-top: 57px;
+    border-radius: 11px;
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+.alert.success {
+    background-color: #4CAF50;
+    margin-top: 57px;
+    margin-left: 0;
+}
+
+.iphone div input {
+    display: block;
+    background-color: rgba(255, 255, 255, 0);
+    border: 3px brown solid;
+    width: 236px;
+    margin: auto;
+    height: 54px;
+    margin-bottom: 100px;
+    margin-top: 59px;
+    border-radius: 14px;
+    box-shadow: #484848 -1px 1px 4px 0px;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: "Monotype Corsiva", sans-serif;
+}
+
+.computer div input {
+    display: block;
+    background-color: rgba(255, 255, 255, 0);
+    border: 3px brown solid;
+    width: 330px;
+    margin: auto;
+    height: 54px;
+    margin-bottom: 100px;
+    margin-top: 59px;
+    border-radius: 14px;
+    box-shadow: #484848 -1px 1px 4px 0px;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: "Monotype Corsiva", sans-serif;
+}
+
+.computer div textarea {
+    display: block;
+    background-color: rgba(255, 255, 255, 0);
+    border: 3px brown solid;
+    width: 305px;
+    margin: auto;
+    margin-bottom: 36px;
+    margin-top: 168px;
+    border-radius: 14px;
+    box-shadow: #484848 -1px 1px 4px 0px;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: "Monotype Corsiva", sans-serif;
+    
+}
+
+.iphone div textarea {
+    display: block;
+    background-color: rgba(255, 255, 255, 0);
+    border: 3px brown solid;
+    width: 236px;
+    margin: auto;
+    margin-bottom: 36px;
+    margin-top: 87px;
+    border-radius: 14px;
+    box-shadow: #484848 -1px 1px 4px 0px;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: "Monotype Corsiva", sans-serif;
+    
+}
+
+div h2 {
+    font-family: "Monotype Corsiva", sans-serif;
+    font-size: 3em;
+    color: brown;
+    font-weight: bold;
+    margin: 30px;
+}
+
+
+.inputLN {
+    height: 118px;
+}
+
+.inputMSG {
+    height: 214px;
+}
+
+.inputBC:hover {
+    background-color: rgba(255, 255, 255, 0.575);
+}
+
+.inputBC:focus {
+    background-color: rgba(255, 255, 255, 0.575);
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+div .submitBtn {
+    height: 54px;
+    width: 236px;
+    margin: auto;
+    margin-top: 77px !important;
+    border: 3px brown solid;
+    background-color: rgb(141, 76, 76);
+    border-radius: 14px;
+    box-shadow: #484848 -1px 1px 4px 0px;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.3em;
+    color: #fff;
+    font-weight: 800;
+    font-family: "Monotype Corsiva", sans-serif;
+    cursor: pointer;
+}
+
+div .submitBtn:hover {
+    background-color:brown;
+    transition: background-color 0.3s ease-in-out;
+}
